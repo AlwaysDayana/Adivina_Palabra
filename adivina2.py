@@ -97,8 +97,9 @@ while empezar_upp == "SI" and jugar_again_upp == "SI":
         print(f"{uni} ERES UN GENIO!!, LA PALABRA SECRETA ES {pregunta_final}")
 
       else:
-
+        print(f"La palabra secreta es {palabra_adivina}")
         print("\U0001F625", "MEJOR SUERTE PARA LA PROXIMA")
+                  
       
   jugar_again = input("quieres jugar de nuevo? SI/NO = ")
 
